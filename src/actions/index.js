@@ -30,3 +30,7 @@ export const setMemory = () => {
 export const applyMemory = () => {
   return { type: APPLY_MEMORY };
 };
+
+export const clearMemory = () => {
+  return { type: CLEAR_MEMORY };
+};

@@ -26,3 +26,7 @@ export const clearDisplay = () => {
 export const setMemory = () => {
   return { type: SET_MEMORY };
 };
+
+export const applyMemory = () => {
+  return { type: APPLY_MEMORY };
+};
